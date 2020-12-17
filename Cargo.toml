@@ -1,0 +1,18 @@
+[package]
+name = "top-100-ips"
+version = "0.1.0"
+authors = ["Taylor Everding <taylor1791@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+quickcheck = "0.9"
+criterion = "0.3"
+quickcheck_macros = "0.9"
+
+[[bench]]
+name = "performance_criteria"
+harness = false
